@@ -19,9 +19,10 @@ void main() async {
 
   // Bloc.observer = AppBlocObserver();
   // BlocOverrides.runZoned(
-  //   () => {
-  //     CounterCubit(),
-  //   },
+  //   () => runApp(MyApp(
+  //     appRouter: AppRouter(),
+  //     connectivity: Connectivity(),
+  //   )),
   //   blocObserver: AppBlocObserver(),
   // );
 
